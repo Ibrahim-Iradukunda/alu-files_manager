@@ -1,0 +1,18 @@
+{
+  "name": "alu-files-manager",
+  "version": "1.0.0",
+  "description": "A file manager API with MongoDB and Redis support.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bull": "3.29.3",
+    "express": "4.18.2",
+    "mime-types": "2.1.35",
+    "mongodb": "3.6.8",
+    "redis": "3.1.2",
+    "sha1": "1.1.1",
+    "uuid": "8.3.2"
+  }
+}
